@@ -10,22 +10,83 @@
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__logo {
+  width: 183px;
+  height: 32px;
+}
+
+.header__logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 4;
+}
+
+.header__title {
+  padding-left: 64px;
+  width: 730px;
+  margin: auto 0;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  z-index: 3;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+  color:#2f80ed;
+  text-decoration: none;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.header__square-pic {
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: 1;
+}
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента
 .header__square-pic {
   height: 568px;
   width: 568px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
+/* .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
-}
+} */
