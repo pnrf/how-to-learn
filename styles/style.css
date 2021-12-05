@@ -30,7 +30,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 4;
+  z-index: 5;
 }
 
 .header__title {
@@ -40,6 +40,8 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  position: relative;
+  z-index: 4;
 }
 
 .header__subtitle {
@@ -77,6 +79,39 @@
   right: 0;
   z-index: 1;
 }
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 100px auto;
+}
+
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента
 .header__square-pic {
   height: 568px;
