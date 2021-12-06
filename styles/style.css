@@ -1,13 +1,3 @@
-/* миксы */
-.margin-none {
-  margin: 0;
-}
-
-.list-item_align {
-  margin-top:20px;
-}
-
-/* основные стили */
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -104,6 +94,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -115,9 +106,10 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
-.two-columns__paragraph_text_interval {
+.two-columns__paragraph:nth-child(2) {
   margin: 30px auto;
 }
 
@@ -175,6 +167,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__text {
@@ -185,6 +178,10 @@
   margin: 0;
   padding: 0;
 }
+
+.table__text:nth-child(1n) {
+  padding-top: 20px;
+  }
 
 .feynman {
   display: flex;
@@ -255,6 +252,14 @@
 .table__cell_theme_dark {
   width: 200px;
   padding-top: 80px;
+}
+
+.table__heading_theme_dark {
+  margin: 0;
+}
+
+.table__text_theme_dark {
+  margin: 0;
 }
 
 .kaufman__triangle {
