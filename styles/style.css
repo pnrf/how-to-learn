@@ -265,16 +265,68 @@
   width: 877px;
   height: 877px;
 }
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+
+.footer {
+  /* min-height: 350px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 60px 0 40px 0;
+  background-color: #1f1f1f;
+  color: #f2f2f2;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-/* .table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-} */
+.footer__columns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+  position: relative;
+}
+
+.logo_place_header {
+  background: url(./../images/logo_place_footer.svg);
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author {
+  margin: 0;
+  padding: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column-links {
+  margin: 0;
+  padding: 20px 0 16px 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  list-style: none;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.footer__social-icon {
+  padding-right: 10px;
+  width: 16px;
+  height: 16px;
+}
