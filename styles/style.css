@@ -135,6 +135,10 @@
   width: 60%;
   padding-bottom: 20px;
   text-align: center;
+}
+
+.section-title_text_style {
+  margin: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -143,6 +147,10 @@
 .section-subtitle {
   width: 60%;
   text-align: center;
+}
+
+.section-subtitle_text_style {
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -174,6 +182,60 @@
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.feynman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto 0;
+  width: auto;
+  height: 890px;
+  background: url(./../images/feynman.png) 867px 637px no-repeat;
+  background-color: #f2f2f2;
+  background-position: bottom left;
+  position: relative;
+}
+
+.feynman__title {
+  width: 648px;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.feynman__title_text_style {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  text-align: center;
+}
+
+.feynman__subtitle_text_style {
+  margin: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  color:#2f80ed;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  z-index: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__picture {
+  align-self: flex-start;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента
