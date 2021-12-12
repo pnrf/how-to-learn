@@ -303,9 +303,6 @@
 }
 
 .footer__column_content_copyright {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
   flex-basis: 711px;
   position: relative;
 }
@@ -337,8 +334,6 @@
 }
 
 .footer__column-links {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   padding: 20px 0 16px 0;
   line-height: 30px;
