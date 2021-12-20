@@ -1,11 +1,8 @@
 .cards__item {
   width: min-content;
+  margin-right: 100px;
 }
 
-.cards__item:nth-of-type(2) {
-  margin: 0 100px;
-}
-
-.cards__item:nth-of-type(5) {
-  margin: 0 100px;
+.cards__item:nth-of-type(3n) {
+  margin-right: 0;
 }
