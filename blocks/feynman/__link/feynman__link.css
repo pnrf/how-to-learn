@@ -8,9 +8,9 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  transition-duration: 1.2s;
 }
 
 .feynman__link:hover {
-  opacity: .3;
-  transition-duration: 1.2s;
+  opacity: 0.3;
 }

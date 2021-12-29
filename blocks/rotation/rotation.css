@@ -7,6 +7,6 @@
   }
 }
 
-.header__square-pic, .kaufman__triangle {
+.rotation {
   animation: rotation 20s linear infinite;
 }

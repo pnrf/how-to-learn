@@ -6,9 +6,9 @@
   font-size: 30px;
   font-weight: normal;
   margin-left: 48px;
+  transition-duration: 1.2s;
 }
 
 .khan__buy-link:hover {
-  opacity: .3;
-  transition-duration: 1.2s;
+  opacity: 0.3;
 }
